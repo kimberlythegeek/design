@@ -1,0 +1,7 @@
+assets/scss/
+*.scss
+lib/transport.php
+lib/recaptcha.php
+lib/verify.php
+lib/swiftmailer/
+
