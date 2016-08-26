@@ -1,0 +1,26 @@
+/* Contact Form */
+/* line 4, ../scss/layout/_layout.scss */
+textarea.form-control {
+  height: 20rem; }
+
+/* line 7, ../scss/layout/_layout.scss */
+.contact-btn {
+  z-index: 100;
+  position: fixed;
+  top: 10px;
+  right: 10px; }
+
+/* line 13, ../scss/layout/_layout.scss */
+.modal-content {
+  padding-bottom: 10px; }
+
+/* line 16, ../scss/layout/_layout.scss */
+.modal-sm form {
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
+/* line 20, ../scss/layout/_layout.scss */
+#recaptcha {
+  display: inline-flex; }
+
+/*# sourceMappingURL=style.css.map */
