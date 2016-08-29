@@ -4,7 +4,7 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,400,800" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
@@ -25,7 +25,7 @@
     <div class="container-fluid site">
 
       <!-- Small modal -->
-      <!-- <button type="button" class="btn btn-primary contact-btn" data-toggle="modal" data-target=".contact-modal">Contact Us!</button> -->
+      <button type="button" class="btn btn-primary contact-btn" data-toggle="modal" data-target=".contact-modal">Contact Us!</button>
       <?php include 'modal.php' ?>
 
       <div class="row site-header">
@@ -33,7 +33,7 @@
           <div class="col-lg-3 branding">
             <div class="site-title">
               <img src="assets/img/logo_sm" />
-              <span>< A Code Above /></span>
+              <span>A Code Above</span>
             </div><!-- .site-title -->
           </div><!-- .branding -->
         </a>
@@ -49,5 +49,6 @@
         </div><!-- .row .navigation -->
       </div> <!-- .row .site-header -->
 
+      <div id="spacer" class="row"></div>
 
-      <div id="page" class="row">
+      <div id="page">
