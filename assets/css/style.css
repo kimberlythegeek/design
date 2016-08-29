@@ -102,6 +102,11 @@ textarea.form-control {
 #recaptcha {
   display: inline-flex; }
 
+/* line 85, ../scss/layout/_layout.scss */
+.footer {
+  height: 4rem;
+  padding-top: 2rem; }
+
 /* line 3, ../scss/colors/_colors.scss */
 body {
   background: #F0EDEE; }
@@ -128,6 +133,19 @@ body {
   color: #F0EDEE;
   background: #008FC5;
   border: #0A090C; }
+
+/* line 27, ../scss/colors/_colors.scss */
+.footer {
+  background: #0A090C;
+  color: #F0EDEE; }
+
+/* line 31, ../scss/colors/_colors.scss */
+.footer a {
+  color: #008FC5; }
+
+/* line 34, ../scss/colors/_colors.scss */
+.footer a:hover {
+  color: #153845; }
 
 @media (min-width: 200px) {
   /* Contact Form */
