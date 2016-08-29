@@ -29,10 +29,10 @@
       <?php include 'modal.php' ?>
 
       <div class="row site-header">
-        <a href="http://localhost/design">
+        <a href="http://acodeabove.com">
           <div class="col-lg-3 branding">
             <div class="site-title">
-              <img src="assets/img/logo_sm" />
+              <img src="assets/img/logo_sm.png" />
               <span>A Code Above</span>
             </div><!-- .site-title -->
           </div><!-- .branding -->
@@ -40,7 +40,7 @@
         <div class="col-lg-9 text-center navigation">
           <div class="navbar">
             <ul class="list-unstyled list-inline">
-              <li><a href="http://localhost/design">Home</a></li>
+              <li><a href="http://acodeabove.com">Home</a></li>
               <li><a class="company" href="#company">Our Company</a></li>
               <li><a class="services" href="#services">Products & Services</a></li>
               <li><a class="contact" href="#contact">Contact Us</a></li>
