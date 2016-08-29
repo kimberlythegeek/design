@@ -1,26 +1,135 @@
-/* Contact Form */
+/* line 1, ../scss/_reset.scss */
+a:hover {
+  text-decoration: none; }
+
+/* line 4, ../scss/_reset.scss */
+.navbar {
+  margin: 0; }
+
+/* line 7, ../scss/_reset.scss */
+ul {
+  margin: 0; }
+
+/* Color Scheme */
+/* Site */
 /* line 4, ../scss/layout/_layout.scss */
+#page {
+  margin-top: 107px; }
+
+/* line 7, ../scss/layout/_layout.scss */
+div .about {
+  height: 800px;
+  text-align: center; }
+
+/* Header */
+/* line 13, ../scss/layout/_layout.scss */
+.logo {
+  background: url("../img/logo_sm.png");
+  height: 50px;
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+/* line 22, ../scss/layout/_layout.scss */
+.site-header {
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  padding: 2rem;
+  -webkit-box-shadow: 0px 5px 64px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 5px 64px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 5px 64px 0px rgba(0, 0, 0, 0.75); }
+
+/* line 31, ../scss/layout/_layout.scss */
+.site-header li {
+  padding-left: 4rem;
+  vertical-align: -webkit-baseline-middle,baseline;
+  vertical-align: -moz-middle-with-baseline; }
+
+/* Contact Form */
+/* line 38, ../scss/layout/_layout.scss */
 textarea.form-control {
   height: 20rem; }
 
-/* line 7, ../scss/layout/_layout.scss */
+/* line 41, ../scss/layout/_layout.scss */
 .contact-btn {
   z-index: 100;
   position: fixed;
   top: 10px;
   right: 10px; }
 
-/* line 13, ../scss/layout/_layout.scss */
+/* line 47, ../scss/layout/_layout.scss */
 .modal-content {
   padding-bottom: 10px; }
 
-/* line 16, ../scss/layout/_layout.scss */
+/* line 50, ../scss/layout/_layout.scss */
 .modal-sm form {
   padding-left: 1rem;
   padding-right: 1rem; }
 
-/* line 20, ../scss/layout/_layout.scss */
+/* line 54, ../scss/layout/_layout.scss */
 #recaptcha {
   display: inline-flex; }
+
+/* Color Scheme */
+/* line 3, ../scss/colors/_colors.scss */
+html {
+  background: #F0EDEE; }
+
+/* line 6, ../scss/colors/_colors.scss */
+.site-header {
+  background: #003245; }
+
+/* line 9, ../scss/colors/_colors.scss */
+.site-header a {
+  color: #F0EDEE; }
+
+/* line 12, ../scss/colors/_colors.scss */
+.site-header a:hover {
+  color: #3EA7CF; }
+
+@media (min-width: 200px) {
+  /* Contact Form */
+  /* line 4, ../scss/media-queries/_200.scss */
+  .modal-sm {
+    width: 90%;
+    float: none;
+    margin: auto;
+    margin-top: 10%; } }
+@media (min-width: 720px) {
+  /* Contact Form */
+  /* line 4, ../scss/media-queries/_720.scss */
+  .modal-sm {
+    width: 60%; } }
+@media (min-width: 1024px) {
+  /* Contact Form */
+  /* line 3, ../scss/media-queries/_1024.scss */
+  .modal-sm {
+    width: 500px; } }
+/* line 1, ../scss/typography/_typography.scss */
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+/* line 5, ../scss/typography/_typography.scss */
+.site-header {
+  font-family: 'Baloo Paaji', cursive;
+  font-size: 3rem; }
+
+/* line 9, ../scss/typography/_typography.scss */
+.site-title {
+  text-transform: lowercase; }
+
+/* line 12, ../scss/typography/_typography.scss */
+.navigation {
+  text-transform: uppercase; }
+
+/* line 16, ../scss/typography/_typography.scss */
+h1, h2, h3, h4 {
+  font-weight: 400; }
+
+/* line 20, ../scss/typography/_typography.scss */
+body {
+  font-weight: 300; }
 
 /*# sourceMappingURL=style.css.map */
