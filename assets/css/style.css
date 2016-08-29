@@ -50,12 +50,17 @@ div .about {
   -moz-box-shadow: 0px 0px 47px 10px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 47px 10px rgba(0, 0, 0, 0.75); }
 
+/* line 39, ../scss/layout/_layout.scss */
+#company {
+  height: 24rem;
+  margin-top: 56rem; }
+
 /* Header */
-/* line 41, ../scss/layout/_layout.scss */
+/* line 45, ../scss/layout/_layout.scss */
 .site-title span {
   vertical-align: bottom; }
 
-/* line 44, ../scss/layout/_layout.scss */
+/* line 48, ../scss/layout/_layout.scss */
 .site-header {
   z-index: 100;
   position: fixed;
@@ -65,7 +70,7 @@ div .about {
   -moz-box-shadow: 0px 5px 64px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 5px 64px 0px rgba(0, 0, 0, 0.75); }
 
-/* line 53, ../scss/layout/_layout.scss */
+/* line 57, ../scss/layout/_layout.scss */
 .site-header li {
   padding-left: 4rem;
   vertical-align: middle;
@@ -73,27 +78,27 @@ div .about {
   vertical-align: -moz-middle-with-baseline; }
 
 /* Contact Form */
-/* line 61, ../scss/layout/_layout.scss */
+/* line 65, ../scss/layout/_layout.scss */
 textarea.form-control {
   height: 20rem; }
 
-/* line 64, ../scss/layout/_layout.scss */
+/* line 68, ../scss/layout/_layout.scss */
 .contact-btn {
   z-index: 150;
   position: fixed;
   top: 10px;
   right: 10px; }
 
-/* line 70, ../scss/layout/_layout.scss */
+/* line 74, ../scss/layout/_layout.scss */
 .modal-content {
   padding-bottom: 10px; }
 
-/* line 73, ../scss/layout/_layout.scss */
+/* line 77, ../scss/layout/_layout.scss */
 .modal-sm form {
   padding-left: 1rem;
   padding-right: 1rem; }
 
-/* line 77, ../scss/layout/_layout.scss */
+/* line 81, ../scss/layout/_layout.scss */
 #recaptcha {
   display: inline-flex; }
 
