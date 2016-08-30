@@ -179,25 +179,24 @@ body {
 
   /* line 7, ../scss/media-queries/_200.scss */
   .navbar ul {
-    border-top: 1px solid #F0EDEE;
     font-size: 2rem;
     font-weight: 300;
     padding-top: 1rem; }
 
-  /* line 13, ../scss/media-queries/_200.scss */
+  /* line 12, ../scss/media-queries/_200.scss */
   .navbar li {
     padding: 0;
     display: block; }
 
   /* Contact Form */
-  /* line 19, ../scss/media-queries/_200.scss */
+  /* line 18, ../scss/media-queries/_200.scss */
   .modal-sm {
     width: 90%;
     float: none;
     margin: auto;
     margin-top: 10%; }
 
-  /* line 25, ../scss/media-queries/_200.scss */
+  /* line 24, ../scss/media-queries/_200.scss */
   div .about {
     padding-left: 3rem;
     padding-right: 3rem; } }
@@ -215,27 +214,31 @@ body {
     display: inline-flex; }
 
   /* line 8, ../scss/media-queries/_768.scss */
+  .navbar ul {
+    border-top: 1px solid #F0EDEE; }
+
+  /* line 11, ../scss/media-queries/_768.scss */
   .navbar li {
     padding-left: 2rem;
     padding-right: 2rem; }
 
-  /* line 12, ../scss/media-queries/_768.scss */
+  /* line 15, ../scss/media-queries/_768.scss */
   .links, .site-seal {
     float: left;
     width: 50%; }
 
-  /* line 16, ../scss/media-queries/_768.scss */
+  /* line 19, ../scss/media-queries/_768.scss */
   .site-seal {
     text-align: right;
     padding-right: 3rem; }
 
-  /* line 20, ../scss/media-queries/_768.scss */
+  /* line 23, ../scss/media-queries/_768.scss */
   .links li {
     display: inline;
     padding-left: 3rem;
     padding-right: 3rem; }
 
-  /* line 25, ../scss/media-queries/_768.scss */
+  /* line 28, ../scss/media-queries/_768.scss */
   .footer {
     height: 16rem; } }
 @media (min-width: 1024px) {
