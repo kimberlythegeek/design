@@ -22,33 +22,45 @@
   </header>
 
   <body>
-    <div class="container-fluid site">
+    <div class="site">
 
       <!-- Small modal -->
       <button type="button" class="btn btn-primary contact-btn" data-toggle="modal" data-target=".contact-modal">Contact Us!</button>
       <?php include 'modal.php' ?>
+      <div class="site-header">
+        <div class="site-branding">
+          <div class="logo">
+            <a href="http://acodeabove.com"><img src="assets/img/logo_sm.png" /></a>
+          </div><!-- .logo -->
 
-      <div class="row site-header">
-        <a href="http://acodeabove.com">
-          <div class="col-lg-3 branding">
-            <div class="site-title">
-              <img src="assets/img/logo_sm.png" />
-              <span>A Code Above</span>
-            </div><!-- .site-title -->
-          </div><!-- .branding -->
-        </a>
-        <div class="col-lg-9 text-center navigation">
-          <div class="navbar">
-            <ul class="list-unstyled list-inline">
-              <li><a href="http://acodeabove.com">Home</a></li>
-              <li><a class="company" href="#company">Our Company</a></li>
-              <li><a class="services" href="#services">Products & Services</a></li>
-              <li><a class="contact" href="#contact">Contact Us</a></li>
-            </ul>
-          </div><!-- .navbar -->
-        </div><!-- .row .navigation -->
-      </div> <!-- .row .site-header -->
+          <div class="site-title">
+            <span><a href="http://acodeabove.com">A Code Above</a></span>
+          </div><!-- .site-title -->
+        </div><!-- .branding -->
 
-      <div id="spacer" class="row"></div>
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li><a class="home" href="#spacer">Home</a></li>
+                <li><a class="company" href="#company">Our Company</a></li>
+                <li><a class="services" href="#services">Services</a></li>
+                <li><a class="contact" href=""  data-toggle="modal" data-target=".contact-modal">Contact Us</a></li>
+              </ul>
+            </div><!-- .navbar-collapse -->
+        </nav>
+
+        </div><!-- .navigation -->
+      </div> <!-- .site-header -->
+
 
       <div id="page">
