@@ -18,22 +18,22 @@ ul {
 
 /* line 7, ../scss/layout/_layout.scss */
 #section-1 {
-  margin-top: 20rem;
-  background: url(../img/ocean.jpg);
+  margin-top: 18rem;
+  background: url("../img/ocean.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat; }
 
 /* line 14, ../scss/layout/_layout.scss */
 #section-2 {
-  background: url(../img/devices.jpg);
+  background: url("../img/devices.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat; }
 
 /* line 20, ../scss/layout/_layout.scss */
 #section-3 {
-  background: url(../img/mountains.jpg);
+  background: url("../img/mountains.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat; }
@@ -104,17 +104,28 @@ textarea.form-control {
 #recaptcha {
   display: inline-flex; }
 
-/* line 87, ../scss/layout/_layout.scss */
+/* Pricing Plans */
+/* line 89, ../scss/layout/_layout.scss */
+table {
+  background: #F0EDEE; }
+
+/* line 92, ../scss/layout/_layout.scss */
+.pricing-plan .table-header {
+  background: url("../img/table-header-dk.png"); }
+
+/* Privacy Page */
+/* line 98, ../scss/layout/_layout.scss */
 .privacy {
   margin-top: 10rem;
   margin-bottom: 10rem; }
 
-/* line 92, ../scss/layout/_layout.scss */
+/* Footer */
+/* line 103, ../scss/layout/_layout.scss */
 .footer {
   height: 28rem;
   padding-top: 2rem; }
 
-/* line 96, ../scss/layout/_layout.scss */
+/* line 107, ../scss/layout/_layout.scss */
 .footer > div {
   padding-top: 2rem;
   padding-bottom: 2rem; }
@@ -159,47 +170,78 @@ body {
   background: #008FC5;
   border: #0A090C; }
 
-/* line 38, ../scss/colors/_colors.scss */
+/* line 39, ../scss/colors/_colors.scss */
+.table-header, th {
+  background: #008FC5;
+  color: #F0EDEE; }
+
+/* line 43, ../scss/colors/_colors.scss */
+.table-header {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid #153845; }
+
+/* line 51, ../scss/colors/_colors.scss */
 .footer {
   background: #0A090C;
   color: #F0EDEE; }
 
-/* line 42, ../scss/colors/_colors.scss */
+/* line 55, ../scss/colors/_colors.scss */
 .footer a {
   color: #008FC5; }
 
-/* line 45, ../scss/colors/_colors.scss */
+/* line 58, ../scss/colors/_colors.scss */
 .footer a:hover {
   color: #153845; }
 
 @media (min-width: 200px) {
   /* line 4, ../scss/media-queries/_200.scss */
+  .site-header {
+    padding-bottom: 0; }
+
+  /* line 7, ../scss/media-queries/_200.scss */
   .site-title, .logo {
     text-align: center; }
 
-  /* line 7, ../scss/media-queries/_200.scss */
+  /* line 10, ../scss/media-queries/_200.scss */
   .navbar ul {
     font-size: 2rem;
     font-weight: 300;
     padding-top: 1rem; }
 
-  /* line 12, ../scss/media-queries/_200.scss */
+  /* line 15, ../scss/media-queries/_200.scss */
   .navbar li {
     padding: 0;
     display: block; }
 
   /* Contact Form */
-  /* line 18, ../scss/media-queries/_200.scss */
+  /* line 21, ../scss/media-queries/_200.scss */
   .modal-sm {
     width: 90%;
     float: none;
     margin: auto;
     margin-top: 10%; }
 
-  /* line 24, ../scss/media-queries/_200.scss */
+  /* line 27, ../scss/media-queries/_200.scss */
   div .about {
     padding-left: 3rem;
-    padding-right: 3rem; } }
+    padding-right: 3rem; }
+
+  /* Pricing Plans */
+  /* line 33, ../scss/media-queries/_200.scss */
+  .info {
+    display: none; }
+
+  /* line 36, ../scss/media-queries/_200.scss */
+  th {
+    text-align: center; }
+
+  /* line 39, ../scss/media-queries/_200.scss */
+  table {
+    width: 100%;
+    text-align: center; } }
 @media (min-width: 720px) {
   /* Contact Form */
   /* line 4, ../scss/media-queries/_720.scss */
@@ -207,38 +249,42 @@ body {
     width: 60%; } }
 @media (min-width: 768px) {
   /* line 2, ../scss/media-queries/_768.scss */
+  .site-header {
+    padding-bottom: 2rem; }
+
+  /* line 5, ../scss/media-queries/_768.scss */
   .navbar-nav {
     float: none;
     text-align: center;
     margin: auto;
     display: inline-flex; }
 
-  /* line 8, ../scss/media-queries/_768.scss */
+  /* line 11, ../scss/media-queries/_768.scss */
   .navbar ul {
     border-top: 1px solid #F0EDEE; }
 
-  /* line 11, ../scss/media-queries/_768.scss */
+  /* line 14, ../scss/media-queries/_768.scss */
   .navbar li {
     padding-left: 2rem;
     padding-right: 2rem; }
 
-  /* line 15, ../scss/media-queries/_768.scss */
+  /* line 18, ../scss/media-queries/_768.scss */
   .links, .site-seal {
     float: left;
     width: 50%; }
 
-  /* line 19, ../scss/media-queries/_768.scss */
+  /* line 22, ../scss/media-queries/_768.scss */
   .site-seal {
     text-align: right;
     padding-right: 3rem; }
 
-  /* line 23, ../scss/media-queries/_768.scss */
+  /* line 26, ../scss/media-queries/_768.scss */
   .links li {
     display: inline;
     padding-left: 3rem;
     padding-right: 3rem; }
 
-  /* line 28, ../scss/media-queries/_768.scss */
+  /* line 31, ../scss/media-queries/_768.scss */
   .footer {
     height: 16rem; } }
 @media (min-width: 1024px) {
