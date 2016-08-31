@@ -219,22 +219,27 @@ body {
 .fine {
   font-size: 10px !important; }
 
-/* line 90, ../scss/layout/_pricing.scss */
+/* line 89, ../scss/layout/_pricing.scss */
+.fine-print {
+  font-size: 11px;
+  color: #575757; }
+
+/* line 94, ../scss/layout/_pricing.scss */
 .planContainer .options {
   margin-top: 10em; }
 
-/* line 94, ../scss/layout/_pricing.scss */
+/* line 98, ../scss/layout/_pricing.scss */
 .planContainer .options li {
   font-weight: 700;
   color: #364762;
   line-height: 2.5; }
 
-/* line 100, ../scss/layout/_pricing.scss */
+/* line 104, ../scss/layout/_pricing.scss */
 .planContainer .options li span {
   font-weight: 400;
   color: #979797; }
 
-/* line 105, ../scss/layout/_pricing.scss */
+/* line 109, ../scss/layout/_pricing.scss */
 .planContainer .button a {
   text-transform: uppercase;
   text-decoration: none;
@@ -249,51 +254,51 @@ body {
   border-radius: 4px;
   margin: 1.5em 0 1.8em; }
 
-/* line 120, ../scss/layout/_pricing.scss */
+/* line 124, ../scss/layout/_pricing.scss */
 .planContainer .button a.bestPlanButton {
   color: #fff;
   background: #E5992E;
   border: 2px solid #f7814d; }
 
-/* line 126, ../scss/layout/_pricing.scss */
+/* line 130, ../scss/layout/_pricing.scss */
 #credits {
   text-align: center;
   font-size: .8em;
   font-style: italic;
   color: #a0a0a0; }
 
-/* line 133, ../scss/layout/_pricing.scss */
+/* line 137, ../scss/layout/_pricing.scss */
 #credits a {
   color: #a0a0a0; }
 
-/* line 137, ../scss/layout/_pricing.scss */
+/* line 141, ../scss/layout/_pricing.scss */
 #credits a:hover {
   text-decoration: none; }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-  /* line 143, ../scss/layout/_pricing.scss */
+  /* line 147, ../scss/layout/_pricing.scss */
   #pricePlans #plans .plan {
     width: 49%;
     margin: 0 2% 20px 0; }
 
-  /* line 148, ../scss/layout/_pricing.scss */
+  /* line 152, ../scss/layout/_pricing.scss */
   #pricePlans #plans > li:nth-child(2n) {
     margin-right: 0; } }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-  /* line 156, ../scss/layout/_pricing.scss */
+  /* line 160, ../scss/layout/_pricing.scss */
   #pricePlans #plans .plan {
     width: 49%;
     margin: 0 2% 20px 0; }
 
-  /* line 161, ../scss/layout/_pricing.scss */
+  /* line 165, ../scss/layout/_pricing.scss */
   #pricePlans #plans > li:nth-child(2n) {
     margin-right: 0; } }
 @media screen and (min-width: 1025px) {
-  /* line 169, ../scss/layout/_pricing.scss */
+  /* line 173, ../scss/layout/_pricing.scss */
   #pricePlans {
     margin: 2em auto; }
 
-  /* line 173, ../scss/layout/_pricing.scss */
+  /* line 177, ../scss/layout/_pricing.scss */
   #pricePlans #plans .plan {
     width: 24%;
     margin: 0 1.33% 20px 0;
@@ -303,11 +308,11 @@ body {
     -o-transition: all .25s;
     transition: all .25s; }
 
-  /* line 184, ../scss/layout/_pricing.scss */
+  /* line 188, ../scss/layout/_pricing.scss */
   #pricePlans #plans > li:last-child {
     margin-right: 0; }
 
-  /* line 188, ../scss/layout/_pricing.scss */
+  /* line 192, ../scss/layout/_pricing.scss */
   #pricePlans #plans .plan:hover {
     -webkit-transform: scale(1.04);
     -moz-transform: scale(1.04);
@@ -315,7 +320,7 @@ body {
     -o-transform: scale(1.04);
     transform: scale(1.04); }
 
-  /* line 196, ../scss/layout/_pricing.scss */
+  /* line 200, ../scss/layout/_pricing.scss */
   .planContainer .button a {
     -webkit-transition: all .25s;
     -moz-transition: all .25s;
@@ -323,12 +328,12 @@ body {
     -o-transition: all .25s;
     transition: all .25s; }
 
-  /* line 204, ../scss/layout/_pricing.scss */
+  /* line 208, ../scss/layout/_pricing.scss */
   .planContainer .button a:hover {
     background: #153845;
     color: #fff; }
 
-  /* line 209, ../scss/layout/_pricing.scss */
+  /* line 213, ../scss/layout/_pricing.scss */
   .planContainer .button a.bestPlanButton:hover {
     background: #FFAA45;
     border: 2px solid #FFAA45; } }

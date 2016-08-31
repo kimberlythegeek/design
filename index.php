@@ -95,8 +95,10 @@
 				</ul>
 			</li>
 		</ul> <!-- End ul#plans -->
-		<div id="credits">by <a href="http://wegraphics.net/">WeGraphics</a></div>
-	</section>
+    <div id="credits">by <a href="http://wegraphics.net/">WeGraphics</a></div><Br /><Br />
+    <div class="text-center fine-print">*Discounted rates for any business with <strong>primary</strong> location in the state of Colorado.</div>
+    <br /><Br />
+  </section>
 
 </div><!-- #services -->
 
