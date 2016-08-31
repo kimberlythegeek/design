@@ -11,12 +11,16 @@ a:hover, a:focus {
 ul {
   margin: 0; }
 
-/* line 3, ../scss/layout/_layout.scss */
+/* line 11, ../scss/_reset.scss */
+th {
+  vertical-align: initial !important; }
+
+/* line 2, ../scss/layout/_layout.scss */
 .section-img {
   height: 45rem;
   padding-top: 1rem; }
 
-/* line 7, ../scss/layout/_layout.scss */
+/* line 6, ../scss/layout/_layout.scss */
 #section-1 {
   margin-top: 18rem;
   background: url("../img/ocean.jpg");
@@ -24,14 +28,14 @@ ul {
   background-position: center center;
   background-repeat: no-repeat; }
 
-/* line 14, ../scss/layout/_layout.scss */
+/* line 13, ../scss/layout/_layout.scss */
 #section-2 {
   background: url("../img/devices.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat; }
 
-/* line 20, ../scss/layout/_layout.scss */
+/* line 19, ../scss/layout/_layout.scss */
 #section-3 {
   background: url("../img/mountains.jpg");
   background-size: cover;
@@ -39,7 +43,7 @@ ul {
   background-repeat: no-repeat; }
 
 /* Site */
-/* line 29, ../scss/layout/_layout.scss */
+/* line 28, ../scss/layout/_layout.scss */
 div .about {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -49,11 +53,11 @@ div .about {
   box-shadow: 0px 0px 47px 10px rgba(0, 0, 0, 0.75); }
 
 /* Header */
-/* line 39, ../scss/layout/_layout.scss */
+/* line 38, ../scss/layout/_layout.scss */
 .site-title span {
   vertical-align: bottom; }
 
-/* line 42, ../scss/layout/_layout.scss */
+/* line 41, ../scss/layout/_layout.scss */
 .site-header {
   z-index: 100;
   position: fixed;
@@ -64,15 +68,15 @@ div .about {
   -moz-box-shadow: 0px 5px 64px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 5px 64px 0px rgba(0, 0, 0, 0.75); }
 
-/* line 53, ../scss/layout/_layout.scss */
+/* line 52, ../scss/layout/_layout.scss */
 nav {
   text-align: center; }
 
-/* line 56, ../scss/layout/_layout.scss */
+/* line 55, ../scss/layout/_layout.scss */
 .navbar-brand {
   float: none; }
 
-/* line 59, ../scss/layout/_layout.scss */
+/* line 58, ../scss/layout/_layout.scss */
 .navbar li {
   padding-left: 4rem;
   vertical-align: middle;
@@ -80,56 +84,254 @@ nav {
   vertical-align: -moz-middle-with-baseline; }
 
 /* Contact Form */
-/* line 67, ../scss/layout/_layout.scss */
+/* line 66, ../scss/layout/_layout.scss */
 textarea.form-control {
   height: 20rem; }
 
-/* line 70, ../scss/layout/_layout.scss */
+/* line 69, ../scss/layout/_layout.scss */
 .contact-btn {
   z-index: 150;
   position: fixed;
   top: 10px;
   right: 10px; }
 
-/* line 76, ../scss/layout/_layout.scss */
+/* line 75, ../scss/layout/_layout.scss */
 .modal-content {
   padding-bottom: 10px; }
 
-/* line 79, ../scss/layout/_layout.scss */
+/* line 78, ../scss/layout/_layout.scss */
 .modal-sm form {
   padding-left: 1rem;
   padding-right: 1rem; }
 
-/* line 83, ../scss/layout/_layout.scss */
+/* line 82, ../scss/layout/_layout.scss */
 #recaptcha {
   display: inline-flex; }
 
 /* Pricing Plans */
-/* line 89, ../scss/layout/_layout.scss */
-table {
-  background: #F0EDEE; }
-
-/* line 92, ../scss/layout/_layout.scss */
-.pricing-plan .table-header {
-  background: url("../img/table-header-dk.png"); }
+/* line 88, ../scss/layout/_layout.scss */
+#services {
+  margin-top: 4rem; }
 
 /* Privacy Page */
-/* line 98, ../scss/layout/_layout.scss */
+/* line 124, ../scss/layout/_layout.scss */
 .privacy {
   margin-top: 10rem;
   margin-bottom: 10rem; }
 
 /* Footer */
-/* line 103, ../scss/layout/_layout.scss */
+/* line 129, ../scss/layout/_layout.scss */
 .footer {
+  float: left;
+  width: 100%;
   height: 28rem;
   padding-top: 2rem; }
 
-/* line 107, ../scss/layout/_layout.scss */
+/* line 135, ../scss/layout/_layout.scss */
 .footer > div {
   padding-top: 2rem;
   padding-bottom: 2rem; }
 
+/* line 1, ../scss/layout/_pricing.scss */
+html, html a {
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
+
+/* line 6, ../scss/layout/_pricing.scss */
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+/* line 10, ../scss/layout/_pricing.scss */
+#plans, #plans ul, #plans ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+/* line 16, ../scss/layout/_pricing.scss */
+#pricePlans:after {
+  content: '';
+  display: table;
+  clear: both; }
+
+/* line 22, ../scss/layout/_pricing.scss */
+#pricePlans {
+  zoom: 1; }
+
+/* line 26, ../scss/layout/_pricing.scss */
+#pricePlans {
+  max-width: 69em;
+  margin: 0 auto; }
+
+/* line 31, ../scss/layout/_pricing.scss */
+#pricePlans #plans .plan {
+  background: #fff;
+  float: left;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 0 20px 0;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); }
+
+/* line 43, ../scss/layout/_pricing.scss */
+.planContainer .title h2 {
+  font-size: 2.125em;
+  font-weight: 300;
+  color: #153845;
+  margin: 0;
+  padding: .6em 0; }
+
+/* line 51, ../scss/layout/_pricing.scss */
+.planContainer .title h2.bestPlanTitle {
+  background: #153845;
+  color: white;
+  background: -webkit-linear-gradient(top, #153845, #003245);
+  background: -moz-linear-gradient(top, #153845, #003245);
+  background: -o-linear-gradient(top, #153845, #003245);
+  background: -ms-linear-gradient(top, #153845, #003245);
+  background: linear-gradient(top, #153845, #003245);
+  border-radius: 5px 5px 0 0; }
+
+/* line 63, ../scss/layout/_pricing.scss */
+.planContainer .price p {
+  background: #153845;
+  background: -webkit-linear-gradient(top, #153845, #003245);
+  background: -moz-linear-gradient(top, #153845, #003245);
+  background: -o-linear-gradient(top, #153845, #003245);
+  background: -ms-linear-gradient(top, #153845, #003245);
+  background: linear-gradient(top, #153845, #003245);
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 700;
+  height: 2.6em;
+  line-height: 2.6em;
+  margin: 0 0 1em; }
+
+/* line 79, ../scss/layout/_pricing.scss */
+.planContainer .price p.bestPlanPrice {
+  background: #E5992E; }
+
+/* line 83, ../scss/layout/_pricing.scss */
+.planContainer .price p span {
+  color: #8394ae; }
+
+/* line 86, ../scss/layout/_pricing.scss */
+.fine {
+  font-size: 10px !important; }
+
+/* line 90, ../scss/layout/_pricing.scss */
+.planContainer .options {
+  margin-top: 10em; }
+
+/* line 94, ../scss/layout/_pricing.scss */
+.planContainer .options li {
+  font-weight: 700;
+  color: #364762;
+  line-height: 2.5; }
+
+/* line 100, ../scss/layout/_pricing.scss */
+.planContainer .options li span {
+  font-weight: 400;
+  color: #979797; }
+
+/* line 105, ../scss/layout/_pricing.scss */
+.planContainer .button a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #3e4f6a;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 2.8em;
+  border: 2px solid #3e4f6a;
+  display: inline-block;
+  width: 80%;
+  height: 2.8em;
+  border-radius: 4px;
+  margin: 1.5em 0 1.8em; }
+
+/* line 120, ../scss/layout/_pricing.scss */
+.planContainer .button a.bestPlanButton {
+  color: #fff;
+  background: #E5992E;
+  border: 2px solid #f7814d; }
+
+/* line 126, ../scss/layout/_pricing.scss */
+#credits {
+  text-align: center;
+  font-size: .8em;
+  font-style: italic;
+  color: #a0a0a0; }
+
+/* line 133, ../scss/layout/_pricing.scss */
+#credits a {
+  color: #a0a0a0; }
+
+/* line 137, ../scss/layout/_pricing.scss */
+#credits a:hover {
+  text-decoration: none; }
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* line 143, ../scss/layout/_pricing.scss */
+  #pricePlans #plans .plan {
+    width: 49%;
+    margin: 0 2% 20px 0; }
+
+  /* line 148, ../scss/layout/_pricing.scss */
+  #pricePlans #plans > li:nth-child(2n) {
+    margin-right: 0; } }
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* line 156, ../scss/layout/_pricing.scss */
+  #pricePlans #plans .plan {
+    width: 49%;
+    margin: 0 2% 20px 0; }
+
+  /* line 161, ../scss/layout/_pricing.scss */
+  #pricePlans #plans > li:nth-child(2n) {
+    margin-right: 0; } }
+@media screen and (min-width: 1025px) {
+  /* line 169, ../scss/layout/_pricing.scss */
+  #pricePlans {
+    margin: 2em auto; }
+
+  /* line 173, ../scss/layout/_pricing.scss */
+  #pricePlans #plans .plan {
+    width: 24%;
+    margin: 0 1.33% 20px 0;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s; }
+
+  /* line 184, ../scss/layout/_pricing.scss */
+  #pricePlans #plans > li:last-child {
+    margin-right: 0; }
+
+  /* line 188, ../scss/layout/_pricing.scss */
+  #pricePlans #plans .plan:hover {
+    -webkit-transform: scale(1.04);
+    -moz-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    -o-transform: scale(1.04);
+    transform: scale(1.04); }
+
+  /* line 196, ../scss/layout/_pricing.scss */
+  .planContainer .button a {
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s; }
+
+  /* line 204, ../scss/layout/_pricing.scss */
+  .planContainer .button a:hover {
+    background: #153845;
+    color: #fff; }
+
+  /* line 209, ../scss/layout/_pricing.scss */
+  .planContainer .button a.bestPlanButton:hover {
+    background: #FFAA45;
+    border: 2px solid #FFAA45; } }
 /* line 3, ../scss/colors/_colors.scss */
 body {
   background: #F0EDEE; }
@@ -170,29 +372,25 @@ body {
   background: #008FC5;
   border: #0A090C; }
 
-/* line 39, ../scss/colors/_colors.scss */
-.table-header, th {
-  background: #008FC5;
-  color: #F0EDEE; }
+/* Pricing Plans */
+/* line 40, ../scss/colors/_colors.scss */
+#services ul {
+  background: #F0EDEE; }
 
 /* line 43, ../scss/colors/_colors.scss */
-.table-header {
-  width: 0;
-  height: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-top: 100px solid #153845; }
+.plan-type {
+  color: white; }
 
-/* line 51, ../scss/colors/_colors.scss */
+/* line 48, ../scss/colors/_colors.scss */
 .footer {
   background: #0A090C;
   color: #F0EDEE; }
 
-/* line 55, ../scss/colors/_colors.scss */
+/* line 52, ../scss/colors/_colors.scss */
 .footer a {
   color: #008FC5; }
 
-/* line 58, ../scss/colors/_colors.scss */
+/* line 55, ../scss/colors/_colors.scss */
 .footer a:hover {
   color: #153845; }
 
@@ -229,19 +427,7 @@ body {
     padding-left: 3rem;
     padding-right: 3rem; }
 
-  /* Pricing Plans */
-  /* line 33, ../scss/media-queries/_200.scss */
-  .info {
-    display: none; }
-
-  /* line 36, ../scss/media-queries/_200.scss */
-  th {
-    text-align: center; }
-
-  /* line 39, ../scss/media-queries/_200.scss */
-  table {
-    width: 100%;
-    text-align: center; } }
+  /* Pricing Plans */ }
 @media (min-width: 720px) {
   /* Contact Form */
   /* line 4, ../scss/media-queries/_720.scss */
@@ -318,10 +504,15 @@ body, button {
 
 /* line 18, ../scss/typography/_typography.scss */
 h1, h2, h3, h4 {
-  font-weight: 400; }
+  font-weight: 600; }
 
-/* line 22, ../scss/typography/_typography.scss */
+/* line 21, ../scss/typography/_typography.scss */
 body {
   font-weight: 300; }
+
+/* Pricing Plans */
+/* line 26, ../scss/typography/_typography.scss */
+th {
+  font-size: 3rem; }
 
 /*# sourceMappingURL=style.css.map */

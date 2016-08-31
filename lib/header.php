@@ -51,9 +51,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li><a class="home" href="#spacer">Home</a></li>
-                <li><a class="company" href="#company">Our Company</a></li>
-                <li><a class="services" href="#services">Services</a></li>
+                <li><a class="home" href="http://acodeabove.com">Home</a></li>
+                <li><a class="company">Our Company</a></li>
+                <li><a class="services">Services</a></li>
                 <li><a class="contact" href=""  data-toggle="modal" data-target=".contact-modal">Contact Us</a></li>
               </ul>
             </div><!-- .navbar-collapse -->

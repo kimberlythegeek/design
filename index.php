@@ -26,57 +26,78 @@
   </div><!-- #affordable .about -->
 
 <div id="services">
-  <div class="pricing info">
-    <table class="table table-bordered basic-plan">
-      <tr><th></th></tr>
-      <tr><td>Price</td></tr>
-      <tr><td>Website Features</td></tr>
-      <tr><td>Social Media</td></tr>
-      <tr><td>Web Presence</td></tr>
-      <tr><td>Maintenance</td></tr>
-    </table>
-  </div>
-  <div class="pricing-plan basic">
-    <table class="table table-bordered basic-plan">
-      <tr class="table-header"><th>Basic</th></tr>
-      <tr><td>$500*</td></tr>
-      <tr class="success"><td>Basic Wordpress Site</td></tr>
-      <tr class="danger"><td>X</td></tr>
-      <tr class="danger"><td>X</td></tr>
-      <tr class="danger"><td>X</td></tr>
-    </table>
-  </div>
-  <div class="pricing-plan plus">
-    <table class="table table-bordered plus-plan">
-      <tr class="table-header"><th>Plus</th></tr>
-      <tr><td>$600</td></tr>
-      <tr class="success"><td>Custom Wordpress Site</td></tr>
-      <tr class="success"><td>Set Up Facebook, Twitter, Google+, Instagram</td></tr>
-      <tr class="success"><td>Add to Yelp, Google Reviews, Google Maps & Apple Maps</td></tr>
-      <tr class="danger"><td>X</td></tr>
-    </table>
-  </div>
-  <div class="pricing-plan managed">
-    <table class="table table-bordered managed-plan">
-      <tr class="table-header"><th>Managed</th></tr>
-      <tr><td>$600 + $30/month</td></tr>
-      <tr class="success"><td>Custom Wordpress Site</td></tr>
-      <tr class="success"><td>Set Up Facebook, Twitter, Google+, Instagram</td></tr>
-      <tr class="success"><td>Add to Yelp, Google Reviews, Google Maps & Apple Maps</td></tr>
-      <tr class="success"><td>Regularly Update Website Info & Content*<br />
-              Any major changes in website design or features are not included in monthly maintenance.
-        </td>
-      </tr>
-    </table>
-  </div>
+  <section id="pricePlans">
+		<ul id="plans">
+			<li class="plan">
+				<ul class="planContainer">
+					<li class="title"><h2>Basic</h2></li>
+					<li class="price"><p>$500*</p></li>
+					<li>
+						<ul class="options">
+							<li>Basic <span>Wordpress Site</span></li>
+							<li>&#8226;</li>
+							<li>&#8226;</li>
+              <li><br /></li>
+							<li>&#8226;</li>
+              <li><br /></li>
+						</ul>
+					</li>
+					<li class="button"><a href=""  data-toggle="modal" data-target=".contact-modal">More Info</a></li>
+				</ul>
+			</li>
 
-</div>
+			<li class="plan">
+				<ul class="planContainer">
+					<li class="title"><h2 class="bestPlanTitle">Basic Plus</h2></li>
+					<li class="price"><p class="bestPlanPrice">$650*</p></li>
+					<li>
+						<ul class="options">
+							<li>Basic <span>Wordpress Site</span></li>
+							<li>Includes <span>Social Media Setup</span></li>
+							<li>Includes <span>Web Presence Setup<br />Yelp, Google Maps, Apple Maps</span></li>
+							<li>&#8226;</li>
+              <li><br /></li>
+						</ul>
+					</li>
+					<li class="button"><a class="bestPlanButton" href=""  data-toggle="modal" data-target=".contact-modal">More Info</a></li>
+				</ul>
+			</li>
 
+			<li class="plan">
+				<ul class="planContainer">
+					<li class="title"><h2>Complete</h2></li>
+					<li class="price"><p>$650* <span>+ 30/month</span></p></li>
+					<li>
+						<ul class="options">
+							<li>Basic <span>Wordpress Site</span></li>
+              <li>Includes <span>Social Media Setup</span></li>
+              <li>Includes <span>Web Presence Setup<br />Yelp, Google Maps, Apple Maps</span></li>
+							<li>Monthly <span>Maintenance*<br /></span><span class="fine">*Content Only. Design changes not included.</span></li>
+						</ul>
+					</li>
+					<li class="button"><a href=""  data-toggle="modal" data-target=".contact-modal">More Info</a></li>
+				</ul>
+			</li>
 
+			<li class="plan">
+				<ul class="planContainer">
+					<li class="title"><h2>Professional</h2></li>
+					<li class="price"><p>$1000+</p></li>
+					<li>
+						<ul class="options">
+							<li>Custom <span>Website</span></li>
+              <li>Includes <span>Social Media Setup</span></li>
+              <li>Includes <span>Web Presence Setup<br />Yelp, Google Maps, Apple Maps</span></li>
+              <li>Maintenance* <span>Plan Optional<br /></span><span class="fine">*Content Only. Design changes not included.</span></li>
+						</ul>
+					</li>
+					<li class="button"><a href=""  data-toggle="modal" data-target=".contact-modal">More Info</a></li>
+				</ul>
+			</li>
+		</ul> <!-- End ul#plans -->
+		<div id="credits">by <a href="http://wegraphics.net/">WeGraphics</a></div>
+	</section>
 
-<!-- <div id="contact"></div></div>
-<div></div></div> -->
-
-
+</div><!-- #services -->
 
 <?php include 'lib/footer.php'; ?>

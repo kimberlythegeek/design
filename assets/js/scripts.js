@@ -1,20 +1,14 @@
 $(document).ready(function(){
 
-  $('.home').on('click', function(){
-    $('html, body').animate({
-      scrollTop: $('#spacer').position().top
-    }, 300);
-  });
-
   $('.company').on('click', function(){
     $('html, body').animate({
-      scrollTop: $('#company').position().top
+      scrollTop: $('#page').position().top
     }, 300);
   });
 
   $('.services').on('click', function(){
     $('html, body').animate({
-      scrollTop: $('#responsive').position().top
+      scrollTop: $('#services').position().top
     }, 300);
   });
 
