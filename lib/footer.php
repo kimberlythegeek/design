@@ -8,7 +8,7 @@
       </div>
       <div class="links">
         <ul class="list-unstyled">
-          <li><a href="http://localhost/design/terms">Terms & Conditions</a></li>
+          <!--<li><a href="http://localhost/design/terms">Terms & Conditions</a></li>-->
           <li><a href="http://localhost/design/privacy-policy.php">Privacy Policy</a></li>
         </ul>
       </div><!-- .links -->

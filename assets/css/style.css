@@ -470,12 +470,16 @@ body {
     padding-right: 3rem; }
 
   /* line 26, ../scss/media-queries/_768.scss */
+  .links {
+    text-align: left; }
+
+  /* line 29, ../scss/media-queries/_768.scss */
   .links li {
     display: inline;
     padding-left: 3rem;
     padding-right: 3rem; }
 
-  /* line 31, ../scss/media-queries/_768.scss */
+  /* line 34, ../scss/media-queries/_768.scss */
   .footer {
     height: 16rem; } }
 @media (min-width: 1024px) {
