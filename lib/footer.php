@@ -13,8 +13,8 @@
       </div>
       <div class="links">
         <ul class="list-unstyled">
-          <!--<li><a href="http://localhost/design/terms">Terms & Conditions</a></li>-->
-          <li><a href="http://localhost/design/privacy-policy.php">Privacy Policy</a></li>
+          <!--<li><a href="http://acodeabove.com/terms.php">Terms & Conditions</a></li>-->
+          <li><a href="http://acodeabove.com/privacy-policy.php">Privacy Policy</a></li>
         </ul>
       </div><!-- .links -->
       <div id="siteseal" class="site-seal">
