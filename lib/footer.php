@@ -5,6 +5,11 @@
     <div class="footer text-center">
       <div class="site-info">
         <p>Website Design by <a href="http://kimberly.codes">Kimberly Pennington</a> of <a href="http://www.acodeabove.com">A Code Above</a></p>
+        <p>20310 Hwy 160 #52, Durango, CO, 81303</p>
+        <p><a href="tel:+16623803404">(662) 380.3404</a></p>
+        <p><a href="mailto:kimberly@acodeabove.com">kimberly@acodeabove.com</a></p>
+        <p><a href="mailto:email@kimberly.codes">email@kimberly.codes</a></p>
+      </div>
       </div>
       <div class="links">
         <ul class="list-unstyled">
