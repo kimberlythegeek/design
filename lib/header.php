@@ -12,8 +12,8 @@
     <script src="assets/js/scripts.js"></script>
 
     <link rel="shortcut icon" href="assets/img/favicon.ico">
-    <title> A Code Above | Web Design & Development </title>
-    <meta name="web design and development" content="A Code Above | Professional, Aesthetic and Efficient Web Development" />
+    <title>Durango Web Design | A Code Above | Web Design & Development</title>
+    <meta name="web design and development" content="A Code Above | Professional, Aesthetic and Efficient Web Design & Development | A Colorado Proud Company | Based in Durango, Colorado" />
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
   </head>
@@ -22,6 +22,7 @@
   </header>
 
   <body>
+    <div id="site-description" style="display:none;">Durango Web Design. Professional Web Development in Durango, Colorado. Mobile Web Design.</div>
     <div class="site">
 
       <!-- Small modal -->
