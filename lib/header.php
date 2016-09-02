@@ -56,6 +56,7 @@
                 <li><a class="company">Our Company</a></li>
                 <li><a class="services">Services</a></li>
                 <li><a class="contact" href=""  data-toggle="modal" data-target=".contact-modal">Contact Us</a></li>
+                <li><a class="blog" href="http://acodeabove.com/blog">Blog</a></li>
               </ul>
             </div><!-- .navbar-collapse -->
         </nav>
