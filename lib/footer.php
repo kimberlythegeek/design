@@ -4,12 +4,20 @@
   <footer>
     <div class="footer text-center">
       <div class="site-info">
-        <p>Website Design by <a href="http://kimberly.codes">Kimberly Pennington</a> of <a href="http://www.acodeabove.com">A Code Above</a></p>
-        <p>20310 Hwy 160 #52, Durango, CO, 81303</p>
-        <p><a href="tel:+16623803404">(662) 380.3404</a></p>
-        <p><a href="mailto:kimberly@acodeabove.com">kimberly@acodeabove.com</a></p>
-        <p><a href="mailto:email@kimberly.codes">email@kimberly.codes</a></p>
-      </div>
+        <div class="social-buttons">
+          <ul class="list-unstyled list-inline">
+            <li><a href="http://facebook.com/acodeabove"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="http://twitter.com/acodeabove"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="http://plus.google.com/113131592301617950962"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+        <div class="contact-info">
+          <p>Website Design by <a href="http://kimberly.codes">Kimberly Pennington</a> of <a href="http://www.acodeabove.com">A Code Above</a></p>
+          <p>20310 Hwy 160 #52, Durango, CO, 81303</p>
+          <p><a href="tel:+16623803404">(662) 380.3404</a></p>
+          <p><a href="mailto:kimberly@acodeabove.com">kimberly@acodeabove.com</a></p>
+          <p><a href="mailto:email@kimberly.codes">email@kimberly.codes</a></p>
+        </div>
       </div>
       <div class="links">
         <ul class="list-unstyled">

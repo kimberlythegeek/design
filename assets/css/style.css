@@ -436,7 +436,9 @@ body {
     padding-left: 3rem;
     padding-right: 3rem; }
 
-  /* Pricing Plans */ }
+  /* line 31, ../scss/media-queries/_200.scss */
+  footer {
+    height: 46rem; } }
 @media (min-width: 720px) {
   /* Contact Form */
   /* line 4, ../scss/media-queries/_720.scss */
@@ -481,7 +483,11 @@ body {
   .links li {
     display: inline;
     padding-left: 3rem;
-    padding-right: 3rem; } }
+    padding-right: 3rem; }
+
+  /* line 35, ../scss/media-queries/_768.scss */
+  footer {
+    height: 37rem; } }
 @media (min-width: 1024px) {
   /* Contact Form */
   /* line 3, ../scss/media-queries/_1024.scss */
@@ -492,6 +498,21 @@ body {
   .navbar li {
     padding-left: 3rem;
     padding-right: 3rem; } }
+@media (min-width: 1258px) {
+  /* line 2, ../scss/media-queries/_1258.scss */
+  footer {
+    height: 26rem; }
+
+  /* line 5, ../scss/media-queries/_1258.scss */
+  .contact-info {
+    width: 33%;
+    margin-left: 33%;
+    float: left; }
+
+  /* line 10, ../scss/media-queries/_1258.scss */
+  .social-buttons {
+    width: 33%;
+    float: right; } }
 /* line 1, ../scss/typography/_typography.scss */
 body, button {
   font-family: 'Open Sans', sans-serif; }
@@ -519,9 +540,17 @@ h1, h2, h3, h4 {
 body {
   font-weight: 300; }
 
-/* Pricing Plans */
-/* line 26, ../scss/typography/_typography.scss */
-th {
-  font-size: 3rem; }
+/* line 25, ../scss/typography/_typography.scss */
+.social-buttons {
+  font-size: 4rem;
+  padding-bottom: 2rem; }
+
+/* line 29, ../scss/typography/_typography.scss */
+.social-buttons a:hover {
+  color: white; }
+
+/* line 32, ../scss/typography/_typography.scss */
+.contact {
+  font-size: 1.6rem; }
 
 /*# sourceMappingURL=style.css.map */
