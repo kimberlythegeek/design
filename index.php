@@ -35,10 +35,10 @@
 					<li>
 						<ul class="options">
 							<li>Basic <span>Wordpress Site</span></li>
-							<li>&#8226;</li>
-							<li>&#8226;</li>
+							<li><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></li>
+							<li><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></li>
               <li><br /></li>
-							<li>&#8226;</li>
+							<li><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></li>
               <li><br /></li>
 						</ul>
 					</li>
@@ -55,7 +55,7 @@
 							<li>Basic <span>Wordpress Site</span></li>
 							<li>Includes <span>Social Media Setup</span></li>
 							<li>Includes <span>Web Presence Setup<br />Yelp, Google Maps, Apple Maps</span></li>
-							<li>&#8226;</li>
+							<li><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></li>
               <li><br /></li>
 						</ul>
 					</li>
