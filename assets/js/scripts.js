@@ -1,5 +1,18 @@
 $(document).ready(function(){
 
+  if($(window).width() < 768){
+    $(window).scroll(function(){
+      var scrollY = $(this).scrollTop();
+      if (scrollY > 200) $('.site-header').addClass('smallnav');
+      else $('.site-header').removeClass('smallnav');
+    });
+  }
+
+  $("button").mouseup(function(){
+      $(this).blur();
+  })
+
+
   $('.company').on('click', function(){
     $('html, body').animate({
       scrollTop: $('#page').position().top
