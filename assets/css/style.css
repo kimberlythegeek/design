@@ -561,6 +561,11 @@ body {
 .contact-info {
   font-size: 1.6rem; }
 
+/* line 35, ../scss/typography/_typography.scss */
+.company:hover,
+.services:hover {
+  cursor: pointer; }
+
 /* line 8, ../scss/style.scss */
 .smallnav.site-header {
   padding-top: 1rem;
