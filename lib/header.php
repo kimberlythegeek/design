@@ -19,6 +19,7 @@
   </head>
 
   <header>
+    <?php include_once 'analytics.php'; ?>
   </header>
 
   <body>
