@@ -68,15 +68,22 @@ div .about {
   -moz-box-shadow: 0px 5px 64px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 5px 64px 0px rgba(0, 0, 0, 0.75); }
 
-/* line 52, ../scss/layout/_layout.scss */
+/* line 51, ../scss/layout/_layout.scss */
+.logo:hover {
+  background: url("../img/logo-hover.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+/* line 58, ../scss/layout/_layout.scss */
 nav {
   text-align: center; }
 
-/* line 55, ../scss/layout/_layout.scss */
+/* line 61, ../scss/layout/_layout.scss */
 .navbar-brand {
   float: none; }
 
-/* line 58, ../scss/layout/_layout.scss */
+/* line 64, ../scss/layout/_layout.scss */
 .navbar li {
   padding-left: 4rem;
   vertical-align: middle;
@@ -84,54 +91,54 @@ nav {
   vertical-align: -moz-middle-with-baseline; }
 
 /* Contact Form */
-/* line 66, ../scss/layout/_layout.scss */
+/* line 72, ../scss/layout/_layout.scss */
 textarea.form-control {
   height: 20rem; }
 
-/* line 69, ../scss/layout/_layout.scss */
+/* line 75, ../scss/layout/_layout.scss */
 .contact-btn {
   z-index: 150;
   position: fixed;
   top: 10px;
   right: 10px; }
 
-/* line 75, ../scss/layout/_layout.scss */
+/* line 81, ../scss/layout/_layout.scss */
 .modal-content {
   padding-bottom: 10px; }
 
-/* line 78, ../scss/layout/_layout.scss */
+/* line 84, ../scss/layout/_layout.scss */
 .modal-sm form {
   padding-left: 1rem;
   padding-right: 1rem; }
 
-/* line 82, ../scss/layout/_layout.scss */
+/* line 88, ../scss/layout/_layout.scss */
 #recaptcha {
   display: inline-flex; }
 
 /* Pricing Plans */
-/* line 88, ../scss/layout/_layout.scss */
+/* line 94, ../scss/layout/_layout.scss */
 #services {
   margin-top: 4rem; }
 
 /* Privacy Page */
-/* line 93, ../scss/layout/_layout.scss */
+/* line 99, ../scss/layout/_layout.scss */
 .privacy {
   margin-top: 10rem;
   margin-bottom: 10rem; }
 
 /* Footer */
-/* line 98, ../scss/layout/_layout.scss */
+/* line 104, ../scss/layout/_layout.scss */
 footer {
   height: 22rem; }
 
-/* line 101, ../scss/layout/_layout.scss */
+/* line 107, ../scss/layout/_layout.scss */
 .footer {
   float: left;
   width: 100%;
   height: 18rem;
   padding-top: 2rem; }
 
-/* line 107, ../scss/layout/_layout.scss */
+/* line 113, ../scss/layout/_layout.scss */
 .footer > div {
   padding-top: 2rem;
   padding-bottom: 2rem; }
