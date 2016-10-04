@@ -31,7 +31,7 @@
 			<li class="plan">
 				<ul class="planContainer">
 					<li class="title"><h2>Basic</h2></li>
-					<li class="price"><p>$500*</p></li>
+					<li class="price"><p>$1000*</p></li>
 					<li>
 						<ul class="options">
 							<li>Basic <span>Wordpress Site</span></li>
@@ -49,7 +49,7 @@
 			<li class="plan">
 				<ul class="planContainer">
 					<li class="title"><h2 class="bestPlanTitle">Basic Plus</h2></li>
-					<li class="price"><p class="bestPlanPrice">$650*</p></li>
+					<li class="price"><p class="bestPlanPrice">$1200*</p></li>
 					<li>
 						<ul class="options">
 							<li>Basic <span>Wordpress Site</span></li>
@@ -66,7 +66,7 @@
 			<li class="plan">
 				<ul class="planContainer">
 					<li class="title"><h2>Complete</h2></li>
-					<li class="price"><p>$650* <span>+ 30/month</span></p></li>
+					<li class="price"><p>$1200* <span>+ 30/month</span></p></li>
 					<li>
 						<ul class="options">
 							<li>Basic <span>Wordpress Site</span></li>
@@ -82,7 +82,7 @@
 			<li class="plan">
 				<ul class="planContainer">
 					<li class="title"><h2>Professional</h2></li>
-					<li class="price"><p>$1000+</p></li>
+					<li class="price"><p>1500+</p></li>
 					<li>
 						<ul class="options">
 							<li>Custom <span>Website</span></li>
