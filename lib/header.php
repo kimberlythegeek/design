@@ -1,11 +1,6 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <?php
-    ini_set('display_errors', 1);
-    ini_set('display_startup_errors', 1);
-    error_reporting(E_ALL);
-    ?>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,400,800" rel="stylesheet">
 
