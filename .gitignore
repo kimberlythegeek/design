@@ -5,3 +5,5 @@ lib/recaptcha.php
 lib/verify.php
 lib/swiftmailer/
 lib/analytics.php
+assets/js/bootstrap
+assets/js/jquery

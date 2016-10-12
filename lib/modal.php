@@ -1,4 +1,7 @@
 <?php
+
+if (isset($_POST['submit'])){
+
   $name = $_POST['name'];
   $phone = $_POST['phone'];
   $email = $_POST['email'];
@@ -7,14 +10,6 @@
   $subject = 'An Inquiry for A Code Above';
 
   $body = "From: $name\nEmail: $email\nPhone: <a href='tel:+1$phone'>$phone</a>\nMessage: $msg";
-
-
-
-?>
-
-<?php
-
-if (isset($_POST['submit'])){
 
   $recaptcha = '';
   if (isset($_POST['g-recaptcha-response'])) $recaptcha = $_POST['g-recaptcha-response'];
@@ -59,6 +54,7 @@ if (isset($_POST['submit'])){
     }
   }
 }
+
 ?>
 
 <div class="modal fade contact-modal" tabindex="-1" role="dialog" aria-labelledby="contactModal">
@@ -67,7 +63,7 @@ if (isset($_POST['submit'])){
 
       <h3 class="title">Questions? Send us a Message!</h3>
 
-      <form method="post" action="">
+      <form method="post" action="" role="form">
 
         <div class="form-group has-feedback form-name">
           <label for="form-name">Name <span class="req">(required)</span></label>
@@ -89,8 +85,11 @@ if (isset($_POST['submit'])){
 
         <div class="form-group has-feedback form-email">
           <label for="form-email">Email Address <span class="req">(required)</span></label>
-          <input type="email" id="form-email" class="form-control" name="email" placeholder="Email Address">
-          <span class="glyphicon form-control-feedback form-email" aria-hidden="true"></span>
+          <div class="input-group">
+            <div class="input-group-addon"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></div>
+            <input type="email" id="form-email" class="form-control" name="email" placeholder="Email Address">
+            <span class="glyphicon form-control-feedback form-email" aria-hidden="true"></span>
+          </div>
         </div>
 
         <div class="form-group has-feedback form-msg">
@@ -106,4 +105,3 @@ if (isset($_POST['submit'])){
     </div><!-- .modal-content -->
   </div><!-- .modal-dialog -->
 </div><!-- .contact-modal -->
-

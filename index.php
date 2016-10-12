@@ -25,6 +25,11 @@
     <p>As a Colorado Proud company, we also offer a discounted rate to any business located in the state of Colorado.</p>
   </div><!-- #affordable .about -->
 
+  <div id="portfolio">
+    
+
+  </div>
+
 <div id="services">
   <section id="pricePlans">
 		<ul id="plans">
