@@ -1,11 +1,4 @@
 
-// (function($){
-//     $(window).load(function(){
-//         $("#my-thumbs-list").mThumbnailScroller({
-//           axis:"x" //change to "y" for vertical scroller
-//         });
-//     });
-// })(jQuery);
 
 $(document).ready(function(){
 
@@ -19,6 +12,8 @@ $(document).ready(function(){
         });
       } else $('.site-header').removeClass('smallnav');
   });
+
+  $('.gallery').featherlightGallery();
 
   $("button").mouseup(function(){
       $(this).blur();

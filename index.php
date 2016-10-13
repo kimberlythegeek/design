@@ -26,9 +26,45 @@
   </div><!-- #affordable .about -->
 
   <div id="portfolio">
-    
 
-  </div>
+    <section class="portfolio-gallery" data-featherlight-gallery data-featherlight-filter="a">
+      <div class="gallery-item">
+        <a class="thumbnail gallery" href="/design/assets/img/portfolio/acodeabove.png">
+          <img src="/design/assets/img/portfolio/acodeabove-t.png">
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a class="thumbnail gallery" href="/design/assets/img/portfolio/autodetail.png">
+          <img src="/design/assets/img/portfolio/autodetail-t.png">
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a class="thumbnail gallery" href="/design/assets/img/portfolio/durangotattoo.png">
+          <img src="/design/assets/img/portfolio/durangotattoo-t.png">
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a class="thumbnail gallery" href="/design/assets/img/portfolio/hairsalon.png">
+          <img src="/design/assets/img/portfolio/hairsalon-t.png">
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a class="thumbnail gallery" href="/design/assets/img/portfolio/naturalsystems.png">
+          <img src="/design/assets/img/portfolio/naturalsystems-t.png">
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a class="thumbnail gallery" href="/design/assets/img/portfolio/newtattoo.png">
+          <img src="/design/assets/img/portfolio/newtattoo-t.png">
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a class="thumbnail gallery" href="/design/assets/img/portfolio/tattoofamous.png">
+          <img src="/design/assets/img/portfolio/tattoofamous-t.png">
+        </a>
+      </div>
+    </section>
+  </div><!-- #portfolio -->
 
 <div id="services">
   <section id="pricePlans">
