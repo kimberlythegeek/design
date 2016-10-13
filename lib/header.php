@@ -3,17 +3,21 @@
   <head>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,400,800" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="assets/js/scripts.js"></script>
+
+
     <link rel="stylesheet" type="text/css" href="assets/css/featherlight/featherlight.css">
     <script src="assets/js/featherlight/featherlight.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/featherlight/featherlight.gallery.css">
     <script src="assets/js/featherlight/featherlight.gallery.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 
     <link rel="shortcut icon" href="assets/img/favicon.ico">
     <title>Durango Web Design | A Code Above | Web Design & Development</title>
@@ -62,7 +66,7 @@
                 <li><a class="portfolio">Portfolio</a></li>
                 <li><a class="services">Services</a></li>
                 <li><a class="contact" href=""  data-toggle="modal" data-target=".contact-modal">Contact<span class="narrow"> Us</span></a></li>
-                <li><a class="blog" href="http://acodeabove.com/blog">Blog</a></li>
+                <!-- <li><a class="blog" href="http://acodeabove.com/blog">Blog</a></li> -->
               </ul>
             </div><!-- .navbar-collapse -->
         </nav>
