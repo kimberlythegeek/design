@@ -107,7 +107,7 @@
 			<li class="plan">
 				<ul class="planContainer">
 					<li class="title"><h2>Complete</h2></li>
-					<li class="price"><p>Contact for Quote <span>+ 30/month</span></p></li>
+					<li class="price"><p>Contact for Quote</p></li>
 					<li>
 						<ul class="options">
 							<li>Basic <span>Wordpress Site</span></li>
@@ -123,7 +123,7 @@
 			<li class="plan">
 				<ul class="planContainer">
 					<li class="title"><h2>Professional</h2></li>
-					<li class="price"><p>Contact for Quote+</p></li>
+					<li class="price"><p>Contact for Quote</p></li>
 					<li>
 						<ul class="options">
 							<li>Custom <span>Website</span></li>
@@ -137,7 +137,7 @@
 			</li>
 		</ul> <!-- End ul#plans -->
     <div id="credits">by <a href="http://wegraphics.net/">WeGraphics</a></div><Br /><Br />
-    <br /><Br />
+     <br /><Br />
   </section>
 
 </div><!-- #services -->
