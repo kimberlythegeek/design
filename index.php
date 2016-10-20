@@ -28,39 +28,52 @@
   <div id="portfolio">
 
     <section class="portfolio-gallery" data-featherlight-gallery data-featherlight-filter="a">
+      <!-- Kimberly.Codes -->
       <div class="gallery-item">
-        <a class="thumbnail gallery" href="/design/assets/img/portfolio/acodeabove.png">
-          <img src="/design/assets/img/portfolio/acodeabove-t.png">
+        <a class="thumbnail gallery" href="/design/assets/img/portfolio/kimberly-codes.png">
+          <img src="/design/assets/img/portfolio/kimberly-codes-t.png">
         </a>
       </div>
-      <div class="gallery-item">
-        <a class="thumbnail gallery" href="/design/assets/img/portfolio/autodetail.png">
-          <img src="/design/assets/img/portfolio/autodetail-t.png">
-        </a>
-      </div>
-      <div class="gallery-item">
-        <a class="thumbnail gallery" href="/design/assets/img/portfolio/durangotattoo.png">
-          <img src="/design/assets/img/portfolio/durangotattoo-t.png">
-        </a>
-      </div>
-      <div class="gallery-item">
-        <a class="thumbnail gallery" href="/design/assets/img/portfolio/hairsalon.png">
-          <img src="/design/assets/img/portfolio/hairsalon-t.png">
-        </a>
-      </div>
-      <div class="gallery-item">
-        <a class="thumbnail gallery" href="/design/assets/img/portfolio/naturalsystems.png">
-          <img src="/design/assets/img/portfolio/naturalsystems-t.png">
-        </a>
-      </div>
+      <!-- New Tattoo Design -->
       <div class="gallery-item">
         <a class="thumbnail gallery" href="/design/assets/img/portfolio/newtattoo.png">
           <img src="/design/assets/img/portfolio/newtattoo-t.png">
         </a>
       </div>
+      <!-- A Auto Detail -->
+      <div class="gallery-item">
+        <a class="thumbnail gallery" href="/design/assets/img/portfolio/autodetail.png">
+          <img src="/design/assets/img/portfolio/autodetail-t.png">
+        </a>
+      </div>
+      <!-- Natural Systems Institute -->
+      <div class="gallery-item">
+        <a class="thumbnail gallery" href="/design/assets/img/portfolio/naturalsystems.png">
+          <img src="/design/assets/img/portfolio/naturalsystems-t.png">
+        </a>
+      </div>
+      <!-- Hair Salon -->
+      <div class="gallery-item">
+        <a class="thumbnail gallery" href="/design/assets/img/portfolio/hairsalon.png">
+          <img src="/design/assets/img/portfolio/hairsalon-t.png">
+        </a>
+      </div>
+      <!-- Durango Tattoo -->
+      <div class="gallery-item">
+        <a class="thumbnail gallery" href="/design/assets/img/portfolio/durangotattoo.png">
+          <img src="/design/assets/img/portfolio/durangotattoo-t.png">
+        </a>
+      </div>
+      <!-- Tattoo Famous -->
       <div class="gallery-item">
         <a class="thumbnail gallery" href="/design/assets/img/portfolio/tattoofamous.png">
           <img src="/design/assets/img/portfolio/tattoofamous-t.png">
+        </a>
+      </div>
+      <!-- Old A Code Above -->
+      <div class="gallery-item">
+        <a class="thumbnail gallery" href="/design/assets/img/portfolio/acodeabove.png">
+          <img src="/design/assets/img/portfolio/acodeabove-t.png">
         </a>
       </div>
     </section>
