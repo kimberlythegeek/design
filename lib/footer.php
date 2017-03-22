@@ -5,7 +5,7 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" async defer></script>
     <script src="assets/js/featherlight/featherlight.js" async defer></script>
     <script src="assets/js/featherlight/featherlight.gallery.js" async defer></script>
-    <script src="assets/js/scripts.min.js" async defer></script>
+    <script src="assets/js/scripts.js" async defer></script>
   </body>
 
   <footer>
