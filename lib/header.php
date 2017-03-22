@@ -5,7 +5,9 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,400,800" rel="stylesheet">
 
+    <script src="assets/js/featherlight/featherlight.js" async defer></script>
     <link rel="stylesheet" type="text/css" href="assets/css/featherlight/featherlight.css">
+    <script src="assets/js/featherlight/featherlight.gallery.js" async defer></script>
     <link rel="stylesheet" type="text/css" href="assets/css/featherlight/featherlight.gallery.css">
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
