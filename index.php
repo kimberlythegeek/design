@@ -40,12 +40,6 @@
           <img src="/design/assets/img/portfolio/newtattoo-t.png">
         </a>
       </div>
-      <!-- A Auto Detail -->
-      <div class="gallery-item">
-        <a class="thumbnail gallery" href="/design/assets/img/portfolio/autodetail.png">
-          <img src="/design/assets/img/portfolio/autodetail-t.png">
-        </a>
-      </div>
       <!-- Natural Systems Institute -->
       <div class="gallery-item">
         <a class="thumbnail gallery" href="/design/assets/img/portfolio/naturalsystems.png">
@@ -68,12 +62,6 @@
       <div class="gallery-item">
         <a class="thumbnail gallery" href="/design/assets/img/portfolio/tattoofamous.png">
           <img src="/design/assets/img/portfolio/tattoofamous-t.png">
-        </a>
-      </div>
-      <!-- Old A Code Above -->
-      <div class="gallery-item">
-        <a class="thumbnail gallery" href="/design/assets/img/portfolio/acodeabove.png">
-          <img src="/design/assets/img/portfolio/acodeabove-t.png">
         </a>
       </div>
     </section>

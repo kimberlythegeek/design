@@ -5,11 +5,15 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,400,800" rel="stylesheet">
 
-    <script src="assets/js/featherlight/featherlight.js" async defer></script>
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"></script>
+    <script src="assets/js/featherlight/featherlight.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/featherlight/featherlight.css">
-    <script src="assets/js/featherlight/featherlight.gallery.js" async defer></script>
+    <script src="assets/js/featherlight/featherlight.gallery.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/featherlight/featherlight.gallery.css">
-
+    <script src="assets/js/scripts.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 
