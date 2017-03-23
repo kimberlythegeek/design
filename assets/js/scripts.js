@@ -25,7 +25,7 @@ $(document).ready(function(){
 
   $('.company').on('click', function(){
     $('html, body').animate({
-      scrollTop: $('#page').offset().top - 300
+      scrollTop: $('#company').offset().top - 300
     }, 'slow');
   });
 
