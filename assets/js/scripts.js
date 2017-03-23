@@ -17,6 +17,11 @@ $(document).ready(function(){
       $(this).blur();
   })
 
+  $('.home').on('click', function(){
+    $('html, body').animate({
+      scrollTop: $('body').offset().top
+    }, 'slow');
+  });
 
   $('.company').on('click', function(){
     $('html, body').animate({

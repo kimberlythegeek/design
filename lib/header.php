@@ -59,7 +59,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li><a class="home" href="http://acodeabove.com">Home</a></li>
+                <li><a class="home">Home</a></li>
                 <li><a class="company"><span class="narrow">Our </span>Company</a></li>
                 <li><a class="portfolio">Portfolio</a></li>
                 <li><a class="services">Services</a></li>
